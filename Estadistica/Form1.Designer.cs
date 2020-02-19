@@ -31,7 +31,7 @@
             this.lblserie = new System.Windows.Forms.Label();
             this.txtrespuesta = new System.Windows.Forms.TextBox();
             this.lblrespuesta_serie = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnMediaAritmetica = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblserie
@@ -59,26 +59,27 @@
             this.lblrespuesta_serie.TabIndex = 2;
             this.lblrespuesta_serie.Text = "X";
             // 
-            // button1
+            // btnMediaAritmetica
             // 
-            this.button1.Location = new System.Drawing.Point(79, 113);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Calcular X";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnMediaAritmetica.Location = new System.Drawing.Point(79, 113);
+            this.btnMediaAritmetica.Name = "btnMediaAritmetica";
+            this.btnMediaAritmetica.Size = new System.Drawing.Size(75, 23);
+            this.btnMediaAritmetica.TabIndex = 3;
+            this.btnMediaAritmetica.Text = "Calcular X";
+            this.btnMediaAritmetica.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnMediaAritmetica);
             this.Controls.Add(this.lblrespuesta_serie);
             this.Controls.Add(this.txtrespuesta);
             this.Controls.Add(this.lblserie);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -89,7 +90,7 @@
         private System.Windows.Forms.Label lblserie;
         private System.Windows.Forms.TextBox txtrespuesta;
         private System.Windows.Forms.Label lblrespuesta_serie;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnMediaAritmetica;
     }
 }
 

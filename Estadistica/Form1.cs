@@ -16,5 +16,20 @@ namespace Estadistica
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            estadistica.objEstadistica = new estadistica();
+
+            public Form1()
+        {
+            InitializeComponent();
+        }
+
+
+        private void  btnMediaAritmetica_clik (object sender, EventArgs e)
+        { 
+             lblrespuesta_serie.Text = "X" + objestadistica
+        }
     }
 }
